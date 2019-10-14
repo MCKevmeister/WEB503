@@ -1,4 +1,3 @@
-# WEB503
-Website created for Assessment 3 
+# HTML-CSS
 
-27/9/19
+This Repo will be Transfered to the HTML5 geolocation project with HTML5
