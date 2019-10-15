@@ -1,3 +1,3 @@
-# HTML-CSS
+# The Local Barber Shop
 
-This Repo will be Transfered to the HTML5 geolocation project with HTML5
+This repo will be used for my WEB503 project in which I will build a website for The Local Barber Shop.
