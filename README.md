@@ -1,4 +1,3 @@
-# WEB503
-Website created for Assessment 3 
+# The Local Barber Shop
 
-27/9/19
+This repo will be used for my WEB503 project in which I will build a website for The Local Barber Shop.
