@@ -15,11 +15,11 @@
 }
 
 #map {
-    width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
     height: 400px;
-    background-color: grey;
-    margin: 10px 1em;
-    padding-left: 20%;
+    padding: 10px;
 }
 .margin-about {
     margin: 0% 10%;
@@ -27,4 +27,6 @@
 .text-center {
     margin: 0, 5%, 10%, 0;
 }
-
+h4 {
+    padding-top: 1rem;
+}
