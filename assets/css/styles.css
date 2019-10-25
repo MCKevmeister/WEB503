@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url("/images/mens_clipper_cuts_local_barber_nelson_bw.jpg");
+    background-image: url("/assets/img/mens_clipper_cuts_local_barber_nelson_bw.jpg");
     padding-top: 10rem;
     background-attachment: fixed;
     background-position: center;
@@ -20,4 +20,10 @@
     background-color: grey;
     margin: 10px 1em;
     padding-left: 20%;
+}
+.margin-about {
+    margin: 0% 10%;
+}
+.text-center {
+    margin: 0, 5%, 10%, 0;
 }
