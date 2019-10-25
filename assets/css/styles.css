@@ -1,12 +1,23 @@
 .parallax {
     background-image: url("/images/mens_clipper_cuts_local_barber_nelson_bw.jpg");
-  
-    /* Set a specific height */
-    height: 300px;
-  
-    /* Create the parallax scrolling effect */
-    bottom: 0px;
+    padding-top: 10rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.img-fluid {
+    margin: 10px;
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+#map {
+    width: 50%;
+    height: 400px;
+    background-color: grey;
+    margin: 10px 1em;
+    padding-left: 20%;
+}
