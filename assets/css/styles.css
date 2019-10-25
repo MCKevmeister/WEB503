@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url("/assets/img/mens_clipper_cuts_local_barber_nelson_bw.JPG");
+    background-image: url(http://dev.localbarber.nz/wp-content/uploads/2015/11/mens_clipper_cuts_local_barber_nelson_bw.jpg);
     padding-top: 10rem;
     background-attachment: fixed;
     background-position: center;
@@ -27,3 +27,4 @@
 .text-center {
     margin: 0, 5%, 10%, 0;
 }
+
