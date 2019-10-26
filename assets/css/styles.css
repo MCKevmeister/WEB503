@@ -23,8 +23,9 @@
     height: auto;
     padding: 10px;
 }
-.margin-about {
-    margin: 0% 10%;
+.margin-article {
+    width: 50%;
+    margin: 0% 25%;
 }
 .text-center {
     margin: 0, 5%, 10%, 0;
