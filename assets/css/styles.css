@@ -21,8 +21,9 @@
     margin: 10px 1em;
     padding-left: 20%;
 }
-.margin-about {
-    margin: 0% 10%;
+.margin-article {
+    width: 50%;
+    margin: 0% 25%;
 }
 .text-center {
     margin: 0, 5%, 10%, 0;
