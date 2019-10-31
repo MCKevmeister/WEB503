@@ -1,3 +1,4 @@
+/* Parallax image used on home page */
 .parallax {
     background-image: url(http://dev.localbarber.nz/wp-content/uploads/2015/11/mens_clipper_cuts_local_barber_nelson_bw.jpg);
     padding-top: 10rem;
@@ -8,6 +9,7 @@
     height: 10%;
 }
 
+/* Styling for Logo in header */
 .img-fluid {
     margin: 10px;
     min-width: 100px;
@@ -15,6 +17,7 @@
     height: 100px;
 }
 
+/* Styling for Map on homepage */
 #map {
     margin-left: 30%;
     margin-right: 30%;
@@ -23,13 +26,19 @@
     height: auto;
     padding: 10px;
 }
-.margin-article {
+
+/* Margin for main text on about page */
+.margin-about {
     width: 50%;
     margin: 0% 25%;
 }
+
+/* Margins for centralizing text */
 .text-center {
     margin: 0, 5%, 10%, 0;
 }
+
+/* Padding above headings */
 h4 {
     padding-top: 1rem;
 }

@@ -2,6 +2,19 @@
 <html>
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-35428620-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-35428620-1');
+    </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>The Local Barber Shop</title>
@@ -23,55 +36,37 @@
             <li class="nav-item"><a class="nav-link active border rounded-0" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link border rounded-0" href="About.html">About</a></li>
             <li class="nav-item"><a class="nav-link border rounded-0" href="Service.html">Service</a></li>
-            <li class="nav-item"><a class="nav-link active border rounded-0" href="Shop.html">Shop</a></li>
+            <li class="nav-item"><a class="nav-link border rounded-0" href="Shop.html">Shop</a></li>
         </ul>
     </header>
     <div class="parallax"></div>
     <h4 class="text-center">A Modern Barbershop<br> for todays Gentleman of Leisure</h4>
-    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.576273069562!2d173.27513631510038!3d-41.27456097927472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3bed1752969345%3A0x5ec23e0ee41ef3a3!2sThe%20Local%20BarberShop%20Nelson!5e0!3m2!1sen!2sus!4v1572037592219!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" margin-left="20%"></iframe>
-    <!-- <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="300" height="300" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=36a%20Gloucester%20Street%2C%20Nelson%20City%2C%20New%20Zealand%207010&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-            </iframe>
-        </div>
-        <style>
-            .mapouter {
-                position: relative;
-                text-align: right;
-                height: 300px;
-                width: 300px;
-                margin: auto;
-                margin-bottom: 20px;
-            }
-
-            .gmap_canvas {
-                overflow: hidden;
-                background: none !important;
-                height: 300px;
-                width: 300px;
-            }
-        </style>
-    </div> -->
+    <!-- Map linked to Physical Shop, also shows reviews from google -->
+    <iframe id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.576273069562!2d173.27513631510038!3d-41.27456097927472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3bed1752969345%3A0x5ec23e0ee41ef3a3!2sThe%20Local%20BarberShop%20Nelson!5e0!3m2!1sen!2sus!4v1572037592219!5m2!1sen!2sus"
+        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" margin-left="20%"></iframe>
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center"><img src="assets/img/Proraso_Beard_Oil.jpg" width="auto" height="100px">
-                <p>$28.50<br>A citrusy fragrance developed form notes of lime and mint. This oil is made to soften and shine
+                <p>$28.50<br>A citrusy fragrance developed form notes of lime and mint. This oil is made to soften and
+                    shine
                     your beard and skin.<br><br></p>
             </div>
             <div class="col-md-4 text-center"><img src="assets/img/Bay-Rum.jpg" width="auto" height="100px">
-                <p>$18.50<br>A woody, spicy fragrance that helps with a flaky or oily scalp and makes for an easy spray on
+                <p>$18.50<br>A woody, spicy fragrance that helps with a flaky or oily scalp and makes for an easy spray
+                    on
                     after-shave cologne<br><br></p>
             </div>
             <div class="col-md-4 text-center"><img src="assets/img/dailydetox.png" width="auto" height="100px">
-                <p>$25.95<br>A detoxifying botanical cleanser, designed for daily refreshment and whole body cleansing, of
+                <p>$25.95<br>A detoxifying botanical cleanser, designed for daily refreshment and whole body cleansing,
+                    of
                     hair and scalp, beard and body<br></p>
             </div>
         </div>
     </div>
     <p class="text-center">The Local Barber Shop offers a range of products to suit all budgets which includes the
         shaving, styling and shampooing range.</p>
+    <!-- Same footer across website -->
     <div class="footer-clean">
         <footer>
             <div class="container">
