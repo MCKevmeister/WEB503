@@ -38,7 +38,7 @@
     margin: 0, 5%, 10%, 0;
 }
 
-/* Padding above headings */
-h4 {
-    padding-top: 1rem;
+/* Padding above and below headings */
+h1 {
+    padding: .5rem 0;
 }
