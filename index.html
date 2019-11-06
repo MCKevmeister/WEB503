@@ -29,12 +29,14 @@
 
 <body>
     <header class="text-center sticky">
-        <section>
-            <a href="https://mckevmeister.github.io/WEB503/index.html"> 
-                <img class="img-fluid" style="min-width: 100px;width: 200px;height: 200px;"
-                src="assets/img/local_barber_logo.png" alt="The Local BarberShop Logo">
-            </a>
-        </section>
+        <div class="parallax" style="background-image: url(http://dev.localbarber.nz/wp-content/uploads/2015/11/mens_clipper_cuts_local_barber_nelson_bw.jpg);">
+            <!-- for some reason I can't use the local assets and have to use an external links grrr -->
+            <section>
+                <a href="https://mckevmeister.github.io/WEB503/index.html"> 
+                    <img class="img-fluid" src="assets\img\The-Local-Barbershop-logo-large_grey_mid.png" alt="The Local BarberShop Logo" style="min-width: 100px;width: 300px;height: 300px; margin: 3em">
+                </a>
+            </section>
+        </div>
         <ul class="nav nav-tabs nav-fill text-capitalize text-center text-primary d-flex ">
             <li class="nav-item"><a class="nav-link active border rounded-0" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link border rounded-0" href="About.html">About</a></li>
@@ -42,7 +44,7 @@
             <li class="nav-item"><a class="nav-link border rounded-0" href="Shop.html">Shop</a></li>
         </ul>
     </header>
-    <div class="parallax"></div>
+    <!-- <div class="parallax"></div> -->
     <h1 class="text-center">A Modern Barbershop<br> for todays Gentleman of Leisure</h4>
     <!-- Map linked to Physical Shop, also shows reviews from google -->
     <iframe id="map"

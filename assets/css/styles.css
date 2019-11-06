@@ -1,14 +1,28 @@
-/* Parallax image used on home page */
+/* Parallax used in header*/
 .parallax {
-    background-image: url(http://dev.localbarber.nz/wp-content/uploads/2015/11/mens_clipper_cuts_local_barber_nelson_bw.jpg);
-    padding-top: 10rem;
+    padding-top: 10px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 10%;
 }
-
+/* Parallax image for Homepage */
+.home-parallax {
+    background-image: url(https://github.com/MCKevmeister/WEB503/blob/master/assets/img/parallax-index.jpg);
+}
+/* Parallax image for About */
+.about-parallax {
+    background-image: url(https://github.com/MCKevmeister/WEB503/blob/master/assets/img/parallax-about.jpg);
+}
+/* Parallax image for Service */
+.service-parallax {
+    background-image: url(https://github.com/MCKevmeister/WEB503/blob/master/assets/img/parallax-services.jpg);
+}
+/* Parallax image for Shop */
+.shop-parallax {
+    background-image: url(https://github.com/MCKevmeister/WEB503/blob/master/assets/img/parallax-shop.jpg);
+}
 /* Styling for Logo in header */
 .img-fluid {
     margin: 10px;
